@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+}
+
+.navBar .navbar-brand {
+    color: #2E4BBA;
+    font-weight: 700;
+    padding-right: 129px;
+}
+
+.navBar form {
+    width: 55%;
+}
+
+.navBar i {
+    color: #2E4BBA;
+}
+
+.navBar .search-icon {
+    position: absolute;
+    margin: 13px;
+}
+
+.navBar span {
+    color: #1C1C1C;
+    font-size: 16px;
+}
+
+.navBar li.nav-item {
+    margin: 0 5px;
+}
+
+.navBar input {
+    height: 50px;
+    padding-left: 45px;
+}
+
+.navBar button.nav-buttons {
+    border: 1px solid #D2E2E8;
+    padding: 11px 15px;
+}
+
+.navBar .navbar{
+    border-bottom: 1px solid #D2E2E8;
+    padding-bottom: 0;
+} 
+
+
+/* Start of : Side Bar */
+
+
+.sideBar .sideMenu {
+    border-right: 1px solid #D2E2E8;
+    min-width: 250px;
+}
+
+.sideBar .sideMenu img {
+    padding: 0 10px 0 0;
+}
+
+.sideBar .sideMenu span {
+    font-size: 14px;
+}
+
+.sideBar #submenu2, #submenu1 {
+    padding: 0 0 0 9px;
+    border-left: 1px solid #ccc;
+}
+
+.sideMenu span {
+    flex-grow: 1;
+}
+
+.sideMenu .notification {
+    border: 1px solid #0074CB;
+    background: #0074CB;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    font-size: 13px;
+    text-align: center;
+    margin: 0px 0px 0 40px;
+    height: 20px;
+}
+
+.sideBar .sideMenu .notification p {
+    display: inline;
+}
+
+.sideBar .nav-link {
+    display: flex;
+}
+
+.sideBar .menu-title {
+    font-weight: 600;
+}
+
+.sideBar .collapsed .menu-title {
+    color: #1C1C1C;
+}
+
+.sideBar .menu-subTitle {
+    color: #1C1C1C;
+}
+
+.logout {
+    background-color: #F3F9FF;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    color: #2E4BBA;
+}
+
+.main-content {
+    background-color: #f3f9ff;
+}
